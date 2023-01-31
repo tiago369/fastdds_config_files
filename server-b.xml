@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+    <participant profile_name="UDP SERVER B">
+        <rtps>
+            <prefix>75.63.2D.73.76.72.63.6C.6E.74.2D.32</prefix>
+            <builtin>
+                <discovery_config>
+                    <discoveryProtocol>SERVER</discoveryProtocol>
+                    <discoveryServersList>
+                        <!-- A server -->
+                        <RemoteServer prefix="75.63.2D.73.76.72.63.6C.6E.74.2D.31">
+                            <metatrafficUnicastLocatorList>
+                                <locator>
+                                    <!-- IP of server A -->
+                                    <udpv4>
+                                        <address>192.168.10.60</address>
+                                        <port>56543</port>
+                                    </udpv4>
+                                </locator>
+                            </metatrafficUnicastLocatorList>
+                        </RemoteServer>
+                    </discoveryServersList>
+                </discovery_config>
+                <metatrafficUnicastLocatorList>
+                    <locator>
+                        <udpv4>
+                            <!-- IP of server B -->
+                            <address>192.168.10.57</address>
+                            <port>56542</port>
+                        </udpv4>
+                    </locator>
+                </metatrafficUnicastLocatorList>
+            </builtin>
+        </rtps>
+    </participant>
+</profiles>
