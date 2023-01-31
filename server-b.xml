@@ -2,13 +2,13 @@
 <profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
     <participant profile_name="UDP SERVER B">
         <rtps>
-            <prefix>75.63.2D.73.76.72.63.6C.6E.74.2D.32</prefix>
+            <prefix>44.53.01.5f.45.50.52.4f.53.49.4d.41</prefix>
             <builtin>
                 <discovery_config>
                     <discoveryProtocol>SERVER</discoveryProtocol>
                     <discoveryServersList>
                         <!-- A server -->
-                        <RemoteServer prefix="75.63.2D.73.76.72.63.6C.6E.74.2D.31">
+                        <RemoteServer prefix="44.53.00.5f.45.50.52.4f.53.49.4d.41">
                             <metatrafficUnicastLocatorList>
                                 <locator>
                                     <!-- IP of server A -->
