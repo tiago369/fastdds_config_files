@@ -43,45 +43,15 @@
             <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
         </subscriber>
 
-        <!-- publisher profile for topic /tf  -->
-        <publisher profile_name="/tf">
+        <!-- publisher profile for topic /template  -->
+        <!-- <publisher profile_name="/template">
             <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
             <qos>
                 <publishMode>
                     <kind>SYNCHRONOUS</kind>
                 </publishMode>
             </qos>
-        </publisher>
-
-        <!-- publisher profile for topic /ptz  -->
-        <publisher profile_name="/ptz">
-            <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
-            <qos>
-                <publishMode>
-                    <kind>SYNCHRONOUS</kind>
-                </publishMode>
-            </qos>
-        </publisher>
-
-        <!-- publisher profile for topic  /ptz/camera/color/image_raw -->
-        <publisher profile_name="/ptz/camera/color/image_raw">
-            <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
-            <qos>
-                <publishMode>
-                    <kind>SYNCHRONOUS</kind>
-                </publishMode>
-            </qos>
-        </publisher>
-
-        <!-- publisher profile for topic  /ptz/camera/thermal/image_raw -->
-        <publisher profile_name="/ptz/camera/thermal/image_raw">
-            <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
-            <qos>
-                <publishMode>
-                    <kind>SYNCHRONOUS</kind>
-                </publishMode>
-		</qos>
-        </publisher>
+        </publisher> -->
 
     </profiles>
 </dds>
