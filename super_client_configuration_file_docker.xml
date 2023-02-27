@@ -52,6 +52,16 @@
                 </publishMode>
             </qos>
         </publisher> -->
+        
+        <!-- publisher profile for topic /nerian_stereo/disparity_map  -->
+        <publisher profile_name="/nerian_stereo/disparity_map">
+            <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
+            <qos>
+                <publishMode>
+                    <kind>SYNCHRONOUS</kind>
+                </publishMode>
+            </qos>
+        </publisher>
 
     </profiles>
 </dds>
